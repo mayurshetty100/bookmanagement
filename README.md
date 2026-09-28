@@ -82,6 +82,19 @@ CREATE DATABASE bookstore_db;
 
 The application uses the `bookstore_db` database. The `book` table is created or updated automatically by Hibernate because `spring.jpa.hibernate.ddl-auto=update` is configured.
 
+### Optional: create the table and sample data
+
+This repository includes [`database/bookstore_seed.sql`](C:/flutter1/bookmanagement/database/bookstore_seed.sql). In MySQL Workbench:
+
+1. Open the **Local instance MySQL80** connection.
+2. Open the SQL file with **File > Open SQL Script**.
+3. Select `database/bookstore_seed.sql`.
+4. Click the lightning-bolt **Execute** button.
+5. Refresh the **SCHEMAS** panel.
+6. Expand `bookstore_db > Tables > book`.
+
+The script creates `bookstore_db`, creates the `book` table, and inserts five sample books. If you execute it more than once, the sample rows will be inserted again, so run it once on a fresh database.
+
 ## 6. Configure database credentials
 
 The default configuration expects:
