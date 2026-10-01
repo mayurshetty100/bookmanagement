@@ -14,6 +14,12 @@ This project is a Spring Boot REST API for managing books. It uses:
 
 The API supports creating, reading, updating, deleting, and filtering books.
 
+For the assignment response sheet, use the project-specific preparation guide in
+[`STUDENT_RESPONSE_SHEET_GUIDE.md`](STUDENT_RESPONSE_SHEET_GUIDE.md). The sheet
+uses `/students` examples, while this project uses `/books`; the guide maps each
+question to the actual code and also lists the commands and screenshots to
+collect. Rewrite the explanations in your own words before submitting.
+
 ## 2. Project structure
 
 ```text
